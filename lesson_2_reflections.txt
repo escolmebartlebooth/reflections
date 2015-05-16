@@ -3,3 +3,10 @@ a meta data directory is created which will store version control information fo
 need to do it to start controlling the versions of the repository
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 it's a place where i can gather changes prior to committing.
+How can you use the staging area to make sure you have one commit per logical change?
+you can use git diff to see what is in the staging area ready to be committed versus what's in the working directory you can then work out whether what's there is logical before comitting
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when trialling experimental or significantly different versions of code whilst keeping a current version active
+would allow a branch for the experiment to be created and worked on separate to this current version
+How do the diagrams help you visualize the branch structure?
+The diagrams help ensure one knows which experiments and versions are available
