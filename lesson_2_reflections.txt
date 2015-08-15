@@ -10,3 +10,7 @@ when trialling experimental or significantly different versions of code whilst k
 would allow a branch for the experiment to be created and worked on separate to this current version
 How do the diagrams help you visualize the branch structure?
 The diagrams help ensure one knows which experiments and versions are available
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+you get all changes from both branches into 1 branch. using the diagram helps explain what has happened
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+auto-merging is very time-efficient and helps draw attention to any conflicts cf. manual merging
