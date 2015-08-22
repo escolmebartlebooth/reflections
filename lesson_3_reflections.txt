@@ -6,3 +6,8 @@ a fork takes a copy of a git hub repository and creates another repo on git hub 
 a branch splits of from a point within a repo - used to work on a specific feature, perhaps in parallel to another feature
 What is the benefit of having a copy of the last known state of the remote stored locally?
 it allows offline changes / snychronisation to occur
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+have 1 file copy which can be worked on at one time
+it would be harder to track changes and manage multiple contributors work
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+trying an experiment which would mess up the master branch
